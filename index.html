@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <div class="container">
+            <img src="./Saylani_logo.png" alt="">
+            <h1>Saylani Online Academy</h1>
+            <div class="main">
+                <form action="./submit.html">
+                    <h2>Student Registration Form</h2>
+                    <table>
+                        <tr>
+                            <td>Name : </td>
+                            <td><input type="text" placeholder="Name" required></td>
+                        </tr>
+                        <tr>
+                            <td>Father Name : </td>
+                            <td><input type="text" placeholder="Father Name" required></td>
+                        </tr>
+                        <tr>
+                            <td>Password : </td>
+                            <td><input type="password" placeholder="password" required></td>
+                        </tr>
+                        <tr>
+                            <td>Address : </td>
+                            <td><textarea name="Address" id="" cols="20" rows="8" placeholder="Address" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>Gender : </td>
+                            <td><input type="radio" name="gender" required> Male <input type="radio" name="gender" required> Female </td>
+                        </tr>
+                        <tr>
+                            <td>Language : </td>
+                            <td><input type="checkbox"> Urdu <input type="checkbox"> English <input type="checkbox" > Arabic<input type="checkbox"> Chinese</td>
+                        </tr>
+                        <tr>
+                            <td>DOB : </td>
+                            <td><input type="date" required></td>
+                        </tr>
+                        <tr>
+                            <td>Email id : </td>
+                            <td><input type="email" placeholder="Email Id" required></td>
+                        </tr>
+                        <tr>
+                            <td>Mobile Number : </td>
+                            <td><input type="number" placeholder="Mobile Number" required></td>
+                        </tr>
+                        <tr>
+                            <td>City : </td>
+                            <td><select name="City" id=""  required>
+                                <option value="Karachi">Karachi</option>
+                                <option value="Hyderabad">Hyderabad</option>
+                                <option value="mirpur">Mirpur</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td>Hobbies : </td>
+                            <td><select name="hobby" id="" multiple="multiple" size="3" required>
+                                <option value="cricket">cricket</option>
+                                <option value="football">football</option>
+                                <option value="hokey">hokey</option>
+                                <option value="tennis">tennis</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td>Picture Upload : </td>
+                            <td><input type="file" required>
+                            <button>upload</button></td>
+                        </tr>
+                    </table>
+                    <a href="http://127.0.0.1:5500/submit.html"><button>Submit Form</button></a>
+                </form>
+            </div>
+    </div>  
+    </center>
+</body>
+</html>
